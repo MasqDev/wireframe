@@ -1,0 +1,145 @@
+#about{
+    
+    color: rgba(0, 0, 0, 0.596);
+}
+#about span{
+    color: rgb(160, 8, 102);
+}
+#service {
+    color: rgba(0, 0, 0, 0.596);
+    
+    
+}
+#service h2{
+    text-align: center;
+}
+#service span{
+    color: rgb(160, 8, 102);
+}
+#service img{
+    width: 289px;
+    height: 194px;
+}
+#price{
+    color:  rgb(160, 8, 102);
+}
+main{
+    position: relative;
+}
+main img{
+    height: 500px;
+    width: 100%;
+}
+
+main h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+     
+   font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    }
+
+
+    main span{
+        color: rgb(165, 42, 134);
+    }
+    ul{
+        list-style: none;
+    }
+    .bg-gray{
+        background-color: rgb(80, 64, 64);
+    }
+    #service2{
+        
+        justify-content: center;
+        margin: auto;
+    }
+    
+    
+    .fa-primary{
+        color: green;
+    }
+   .fa-danger{
+       color: red;
+   }
+   
+   section{
+       background-color: rgba(19, 170, 145, 0.87);
+   }
+   header a{
+       color: whitesmoke;
+   }
+   header a:hover{
+       color:rgba(19, 170, 145, 0.87); ;
+   }
+   .bg-oran h2{
+       color: rgb(160, 8, 102);
+   }
+.img{
+       width: 350px;
+       height: 225px;
+}
+footer i{
+    color:  rgba(19, 170, 145, 0.87);
+}
+footer a i:hover {
+    color: rgba(0, 0, 0, 0.795);
+    
+}
+
+section h3{
+    color:rgb(160, 8, 102) ;
+}
+
+h2{
+    font-family: cursives;
+}
+nav a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+nav ul li{
+    padding-left: 2rem;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: fantasy;
+
+}
+
+
+
+
+@media only screen 
+and (max-device-width:768px){
+
+    main h2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+        font-size: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        text-shadow:0.3 0.3 1 black;
+        max-width: 100%;
+        line-height: .8rem;
+    
+        }
+.col-md-4{
+    padding-bottom: 1rem;
+}
+
+#service h2{
+    padding-bottom: 1rem;
+}
+
+
+}
